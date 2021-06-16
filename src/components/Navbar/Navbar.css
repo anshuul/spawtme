@@ -1,0 +1,15 @@
+nav {
+  height: 150px;
+  line-height: 150px;
+}
+
+.navbar-notes-logo {
+  width: auto;
+}
+.navbar-notes-logo-small {
+  height: 56px;
+}
+.custom-menu {
+  margin-top: 119% !important;
+  color: #5d00ba;
+}
