@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import Aux from "../../hoc/Auxiliary";
 
 class Links extends Component {
   render() {
     return (
-      <div>
-        <h1>Links Page</h1>
-      </div>
+      <Aux>
+        <h1>Link Page!</h1>
+      </Aux>
     );
   }
 }

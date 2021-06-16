@@ -17,9 +17,12 @@ class Landing extends Component {
       <Aux>
         <div className="custom-div-1">
           <div className="image-div-1">
-            <center>
-              <img src={Image1} alt="image1" style={{ cursor: "default" }} />
-            </center>
+            <img
+              id="customImage"
+              src={Image1}
+              alt="image1"
+              style={{ cursor: "default" }}
+            />
           </div>
           <div className="text-div-1">
             <h1>
@@ -59,14 +62,22 @@ class Landing extends Component {
             ></a>
           </div>
           <div className="image-div-2">
-            <img src={Image2} alt="image2" style={{ cursor: "default" }} />
+            <img
+              id="customImage"
+              src={Image2}
+              alt="image2"
+              style={{ cursor: "default" }}
+            />
           </div>
         </div>
         <div className="custom-div-3">
           <div className="image-div-1">
-            <center>
-              <img src={Image3} alt="image1" style={{ cursor: "default" }} />
-            </center>
+            <img
+              id="customImage"
+              src={Image3}
+              alt="image1"
+              style={{ cursor: "default" }}
+            />
           </div>
           <div className="text-div-1">
             <h1>
@@ -100,8 +111,16 @@ class Landing extends Component {
             ></a>
           </div>
           <div className="image-div-2">
-            <img src={Image4} alt="image4" style={{ cursor: "default" }} />
+            <img
+              id="customImage"
+              src={Image4}
+              alt="image4"
+              style={{ cursor: "default" }}
+            />
           </div>
+        </div>
+        <div className="custom-div-5">
+          <p>@ 2021 Spawt.me</p>
         </div>
       </Aux>
     );
