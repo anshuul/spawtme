@@ -120,7 +120,7 @@ class Landing extends Component {
           </div>
         </div>
         <div className="custom-div-5">
-          <p>@ 2021 Spawt.me</p>
+          <p>@ {new Date().getFullYear()} Spawt.me</p>
         </div>
       </Aux>
     );

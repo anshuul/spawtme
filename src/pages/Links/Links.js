@@ -3,9 +3,10 @@ import Aux from "../../hoc/Auxiliary";
 
 class Links extends Component {
   render() {
+    console.log(this.props);
     return (
       <Aux>
-        <h1>Link Page!</h1>
+        <h1>Hello {this.props.match.params.id}!</h1>
       </Aux>
     );
   }
