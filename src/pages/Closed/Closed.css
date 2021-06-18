@@ -1,0 +1,19 @@
+.main-div {
+  width: 70%;
+  height: 70%;
+  background-color: #c7c7c7;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.closed-div > p {
+  color: white;
+}
+
+.closed-div > img {
+  cursor: default;
+}
