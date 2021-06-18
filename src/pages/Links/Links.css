@@ -1,0 +1,11 @@
+.custom-div-x {
+  /*   background-color: red; */
+  max-width: 100%;
+  height: 100vh;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.custom-div-x > h1 {
+  margin: 0 !important;
+}

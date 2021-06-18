@@ -1,9 +1,16 @@
+import React, { useEffect } from "react";
 import SignedOutLinks from "./SignedOutLinks";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Logo from "../../assets/logo.PNG";
 
+const M = require("materialize-css");
+
 const Navbar = () => {
+  useEffect(() => {
+    var elems = document.querySelectorAll(".sidenav");
+    M.Sidenav.init(elems);
+  });
   return (
     <div>
       <nav className="nav-wrapper transparent z-depth-0 ">
@@ -33,7 +40,7 @@ const Navbar = () => {
         </div>
       </nav>
       <ul className="sidenav sidenav-close" id="mobile-demo">
-        {SignedOutLinks}
+        <SignedOutLinks />
       </ul>
     </div>
   );
