@@ -1,0 +1,16 @@
+.customButton2 {
+  background-color: #400183 !important;
+  border-radius: 20px !important;
+  height: 40px !important;
+  color: white !important;
+  border: 1px solid #400183 !important;
+  width: 120% !important;
+  cursor: pointer !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
+}
+
+.customButton:focus {
+  background-color: #400183 !important;
+}

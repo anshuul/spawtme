@@ -13,9 +13,9 @@ const Closed = (props) => {
             Information.
           </p>
           <a href={props.data.Response.deeplink} target="blank">
-            <button className="btn btn-large z-depth-2 waves-effect purple darken-4 waves-light">
+            <button className="customButton">
               Download
-              <i className="material-icons right">get_app</i>
+              {/* <i className="material-icons right">get_app</i> */}
             </button>
           </a>
         </div>

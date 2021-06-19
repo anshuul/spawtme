@@ -3,6 +3,7 @@ import LinkCard from "../LinkCard/LinkCard";
 import Aux from "../../../hoc/Auxiliary";
 import { Link } from "react-router-dom";
 import FacebookIcon from "../../../assets/Facebook.png";
+import "./LinkSummary.css";
 
 class LinkSummary extends Component {
   state = {
@@ -31,9 +32,9 @@ class LinkSummary extends Component {
           })}
         <p className="after-links">Find More People In App</p>
         <a href={this.props.data.Response.deeplink} target="blank">
-          <button className="btn btn-large z-depth-2 waves-effect purple darken-4 waves-light">
+          <button className=" customButton2">
             Download
-            <i className="material-icons right">get_app</i>
+            {/* <i className="material-icons right">get_app</i> */}
           </button>
         </a>
       </Aux>

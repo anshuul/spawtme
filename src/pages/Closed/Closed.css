@@ -17,3 +17,20 @@
 .closed-div > img {
   cursor: default;
 }
+
+.customButton {
+  background-color: #400183;
+  border-radius: 20px;
+  height: 40px;
+  color: white;
+  border: 1px solid #400183;
+  width: 30%;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.customButton:focus {
+  background-color: #400183;
+}
