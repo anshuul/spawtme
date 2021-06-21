@@ -99,8 +99,8 @@ class Landing extends Component {
             />
 
           </div>
-          <div class="col s12 m12 l6">
-            <div className="text-div-1">
+          <div class="col s12 m12 l6 ">
+            <div className="customTextDiv">
               <h1>
                 Discover People <br /> By Social
             </h1>
