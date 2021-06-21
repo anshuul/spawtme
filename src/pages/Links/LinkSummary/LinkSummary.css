@@ -14,3 +14,7 @@
 .customButton:focus {
   background-color: #400183 !important;
 }
+
+.btn {
+  border-radius: 20px;
+}

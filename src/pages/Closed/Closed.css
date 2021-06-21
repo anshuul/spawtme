@@ -10,6 +10,10 @@
   text-align: center;
 }
 
+.closed-div {
+  width: 100%;
+}
+
 .closed-div > p {
   color: white;
 }
@@ -17,14 +21,14 @@
 .closed-div > img {
   cursor: default;
 }
-
+/* 
 .customButton {
   background-color: #400183;
   border-radius: 20px;
   height: 40px;
   color: white;
   border: 1px solid #400183;
-  width: 30%;
+  width: 20%;
   cursor: pointer;
   font-size: 15px;
   font-weight: 500;
@@ -34,3 +38,13 @@
 .customButton:focus {
   background-color: #400183;
 }
+
+@media only screen and (max-width: px) {
+  .customButton {
+    width: 40% !important;
+  }
+} 
+ */
+ .btn {
+   border-radius: 20px;
+ }

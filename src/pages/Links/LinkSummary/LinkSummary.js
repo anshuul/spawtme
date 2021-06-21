@@ -32,10 +32,13 @@ class LinkSummary extends Component {
           })}
         <p className="after-links">Find More People In App</p>
         <a href={this.props.data.Response.deeplink} target="blank">
-          <button className=" customButton2">
+          <button
+            className="btn z-depth-2 hoverable waves-effect purple darken-4 waves-light"
+            type="submit"
+            name="action"
+          >
             Download
-            {/* <i className="material-icons right">get_app</i> */}
-          </button>
+            </button>
         </a>
       </Aux>
     );
